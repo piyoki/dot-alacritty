@@ -1,0 +1,69 @@
+live_config_reload = true
+
+[env]
+TERM = "screen-256color"
+
+[font]
+size = 14
+
+[font.bold]
+family = "ComicCodeLigatures Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Maple Mono NF"
+style = "Italic"
+
+[font.normal]
+family = "Maple Mono NF"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Control"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "fish"
+
+[window.dimensions]
+columns = 150
+lines = 60
+
+[window.padding]
+x = 15
+y = 10
+
+# Colors (Challenger Deep)
+[colors.primary]
+background=        "#0d0d0d"
+foreground=        "#eff0eb"
+dim_foreground=    "#cdd6f4"
+bright_foreground= "#cdd6f4"
+
+[colors.normal]
+black=   '#100e23'
+red=     '#ff8080'
+green=   '#95ffa4'
+yellow=  '#ffe9aa'
+blue=    '#57c7ff'
+magenta= '#a8a9eb'
+cyan=    '#aaffe4'
+white=   '#cbe3e7'
+
+[colors.bright]
+black=   '#686868'
+red=     '#ff5458'
+green=   '#5af78e'
+yellow=  '#ffb378'
+blue=    '#57c7ff'
+magenta= '#8091f2'
+cyan=    '#9aedfe'
+white=   '#f1f1f0'
