@@ -1,3 +1,4 @@
+[general]
 live_config_reload = true
 
 [env]
@@ -30,8 +31,8 @@ multiplier = 3
 [selection]
 save_to_clipboard = true
 
-[shell]
-program = "fish"
+[terminal]
+shell = "fish"
 
 [window.dimensions]
 columns = 150
